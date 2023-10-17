@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/clk_gen_intf.sv,1687758593,verilog,,,,clk_if,,,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/clk_gen_tb.sv,1687759174,systemVerilog,,,D:/softwares/Vivado/2020.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh;C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/clk_gen_intf.sv,tb,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/uart_tb.sv,1697532638,systemVerilog,,,,uart_tb,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/clk_gen.sv,1697534163,systemVerilog,C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/clk_gen_intf.sv;C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/clk_gen_tb.sv,C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/rx_uart.sv,,clk_gen,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/rx_uart.sv,1697532415,systemVerilog,,C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/tx_uart.sv,,rx_uart,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/tx_uart.sv,1697532549,systemVerilog,,C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/uart_top.sv,,tx_uart,,uvm,,,,,,
+C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sources_1/new/uart_top.sv,1697531624,systemVerilog,,C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/uart_tb.sv,,uart_if;uart_top,,uvm,,,,,,
+D:/softwares/Vivado/2020.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh,1605717275,verilog,,,,,,,,,,,,

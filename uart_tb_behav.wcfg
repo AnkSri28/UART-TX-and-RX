@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="548001fs"></ZoomEndTime>
+      <Cursor1Time time="1fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/uart_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rx_start" type="logic">
+      <obj_property name="ElementShortName">rx_start</obj_property>
+      <obj_property name="ObjectShortName">rx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/baud" type="array">
+      <obj_property name="ElementShortName">baud[16:0]</obj_property>
+      <obj_property name="ObjectShortName">baud[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/length" type="array">
+      <obj_property name="ElementShortName">length[3:0]</obj_property>
+      <obj_property name="ObjectShortName">length[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/parity_type" type="logic">
+      <obj_property name="ElementShortName">parity_type</obj_property>
+      <obj_property name="ObjectShortName">parity_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/parity_en" type="logic">
+      <obj_property name="ElementShortName">parity_en</obj_property>
+      <obj_property name="ObjectShortName">parity_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/stop2" type="logic">
+      <obj_property name="ElementShortName">stop2</obj_property>
+      <obj_property name="ObjectShortName">stop2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rx_done" type="logic">
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/tx_err" type="logic">
+      <obj_property name="ElementShortName">tx_err</obj_property>
+      <obj_property name="ObjectShortName">tx_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rx_err" type="logic">
+      <obj_property name="ElementShortName">rx_err</obj_property>
+      <obj_property name="ObjectShortName">rx_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rx_out" type="array">
+      <obj_property name="ElementShortName">rx_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/tx_dut/tx_clk" type="logic">
+      <obj_property name="ElementShortName">tx_clk</obj_property>
+      <obj_property name="ObjectShortName">tx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/rx_dut/rx_clk" type="logic">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/tx_max" type="array">
+      <obj_property name="ElementShortName">tx_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/rx_max" type="array">
+      <obj_property name="ElementShortName">rx_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/tx_count" type="array">
+      <obj_property name="ElementShortName">tx_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/rx_count" type="array">
+      <obj_property name="ElementShortName">rx_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/tx_clk" type="logic">
+      <obj_property name="ElementShortName">tx_clk</obj_property>
+      <obj_property name="ObjectShortName">tx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/rx_clk" type="logic">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/rx_max" type="array">
+      <obj_property name="ElementShortName">rx_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/tx_max" type="array">
+      <obj_property name="ElementShortName">tx_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/rx_count" type="array">
+      <obj_property name="ElementShortName">rx_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/dut/clk_dut/tx_count" type="array">
+      <obj_property name="ElementShortName">tx_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_count[31:0]</obj_property>
+   </wvobject>
+</wave_config>

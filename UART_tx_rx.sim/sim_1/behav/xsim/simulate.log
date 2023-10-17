@@ -1,0 +1,4 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+RX DATA : 5e
+$stop called at time : 4903130 ns : File "C:/Users/Ankith SVK/UART_tx_rx/UART_tx_rx.srcs/sim_1/new/uart_tb.sv" Line 58
